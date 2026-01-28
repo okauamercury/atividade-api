@@ -1,0 +1,67 @@
+Criando a documentação das APIs criada
+
+{
+    // requisicao para atualizar as informações do cliente
+	
+    "requisicao":"atualizar_cliente",
+    "id":"111",
+    "nome":"Ze da Silva Pereira",
+    "telefone":11947172469,
+    "data_nasc":"2000-01-14"
+}
+
+{
+    // requisicao para realizar a consulta do CPF 
+	
+    "requisicao":"consultar_cpf",
+    "cpf":"50680956808"
+}
+ 
+{
+    // requisicao para adicionar um usúario
+	
+    "requisicao":"add",
+    "nome":"Kaua",
+    "usuario":"kauazin",
+    "senha":"123",
+    "nível":"admin"
+}
+ 
+{
+    // requisicao para realizar a edição de algumas informações do usúario
+	
+    "requisicao":"edit",
+    "id":"3",
+    "nome": "Kaua",
+    "nivel":"user",
+    "senha": "123456789"
+}
+ 
+{
+    // requisicao de delete, para exclusão do usúario por ID
+	
+    "requisicao":"delete",
+    "id":"3"
+}
+
+{
+
+    // requisicao para consultar o CPF( ERA PRA SER APENAS UM TESTE )
+	
+    "requisicao":"consultar_cpf",
+
+  "success": true,
+  "data": {
+    "name": "Kaua Phreederyk Mercury da Conceicao Rocha",
+    "birthDate": "17/02/2004",
+    "cpfNumber": "506.809.568-08",
+    "verificationDigit": "08",
+    "receipt": {
+      "emissionTime": "22:08:26",
+      "emissionDate": "13/01/2025",
+      "controlCode": "XXXX.XXXX.XXXX.XXXX"
+    },
+    "validationUrl": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/ca/ResultadoAut.asp?cp=12345678900&cc=XXXXXX&de=13012025&he=220826&dv=03&em=01",
+    "validationHtmlUrl": "https://api.cpfhub.io/api/view-proof/12345678900/XXXXXXXXXXXXX"
+  }
+}
