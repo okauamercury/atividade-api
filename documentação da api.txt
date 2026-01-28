@@ -1,0 +1,33 @@
+{
+    "requisicao":"atualizar_cliente",
+    "id":"111",
+    "nome":"Ze da Silva Pereira",
+    "telefone":11947172469,
+    "data_nasc":"2000-01-14"
+}
+
+{
+    "requisicao":"consultar_cpf",
+    "cpf":"50680956808"
+}
+ 
+{
+    "requisicao":"add",
+    "nome":"Kaua",
+    "usuario":"kauazin",
+    "senha":"123",
+    "nível":"admin"
+}
+ 
+{
+    "requisicao":"edit",
+    "id":"3",
+    "nome": "Kaua",
+    "nivel":"user",
+    "senha": "123456789"
+}
+ 
+{
+    "requisicao":"delete",
+    "id":"3"
+}
